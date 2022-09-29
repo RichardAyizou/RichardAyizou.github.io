@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Richard AYIZOU</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <div class="sidebar">
             <div class="logo">
                 <h3 class="myname">Assana  Richard AYIZOU</h3>
@@ -16,9 +17,9 @@
             </div>
             <div class="entete">
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#", onclick='loadHtml("contenu", "accueil.html")'>Accueil</a></li>
+                    <li><a href="#", onclick='loadHtml("contenu", "apropos.html")'>A propos</a></li>
+                    <li><a href="#", onclick='loadHtml("contenu", "contact.html")'>Contact</a></li>
                 </ul>
             </div>
             <div class="publications">
@@ -31,8 +32,8 @@
                 <h4><a href="#">Correction de l'ndogénéité</a></h4>
             </div>
         </div>
-        <div class="contenu">
-
+        <div class="contenu", id="contenu">
+            <h3>BIENVENU SUR MA PAGE WEB</h3>
         </div>
     </div>
     <div class="convergence">
