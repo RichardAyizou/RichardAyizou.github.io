@@ -18,3 +18,14 @@ function loadHtml(id, filename){
         return;
     }
 }
+
+
+$(document).ready(function() {
+    "use strict";
+  
+    $('ul.navbar-list > li').click(function(e) {
+      e.preventDefault();
+      $('ul.navbar-list > li').removeClass('active');
+      $(this).addClass('active');
+    });
+  });

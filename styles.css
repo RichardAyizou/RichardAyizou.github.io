@@ -54,13 +54,18 @@ li a {
   color:ghostwhite;
 }
 
+/*.nav-list > li:active {
+  color: black;
+  background-color: white;
+}*/
+
+.nav-item > a:hover{
+  color: red;
+}
+
 .nav-list > .active > a{
   color: black;
   background-color: white;
-}
-
-.nav-item > .active > a{
-  color: red;
 }
 
 .logo{
