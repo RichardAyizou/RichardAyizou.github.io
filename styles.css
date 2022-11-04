@@ -54,12 +54,12 @@ li a {
   color:ghostwhite;
 }
 
-.nav-item > .active > a{
+.nav-list > .active > a{
   color: black;
   background-color: white;
 }
 
-.navbar > .active > a{
+.nav-item > .active > a{
   color: red;
 }
 
