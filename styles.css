@@ -5,37 +5,34 @@ body{
   padding: 0;
 }
 
-.container{
-  display: inline;
-}
-
-.sidebar{
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 350px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.logo{
-  background-color: rgb(2, 27, 88);
-  width: 100%;
-  height: 100px;
-  padding: 5px 0px 5px 10px;
-  color: aliceblue;
-  border-radius: 3px;
-}
-
-.logo p{
-  font-style: italic;
-  font-size: 12px;
-}
-
 .entete{
+  background-image: url("img/milky-way-2750627__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #B0C4DE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  display: block;
+}
+
+
+.cover-logo{
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
-  margin-left: 3px;
+  height: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+.navbar{
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -54,48 +51,64 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color:ghostwhite;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: rgb(2, 27, 88);
-  color: aliceblue;
+.nav-item > .active > a{
+  color: black;
+  background-color: white;
 }
 
-.publications{
+.navbar > .active > a{
+  color: red;
+}
+
+.logo{
   width: 100%;
-  border: 1px solid rgb(2, 27, 88);
-  border-radius: 3px;
-  box-shadow: 1px 2px;
-  padding-left: 10px;
-  margin-left: 3px;
-  color: rgb(2, 27, 88);
-}
-
-.entete_nav{
-  text-align: right;
-}
-
-.contenu{
-  width: 735px;
-  height: 200px;
-  margin: 10px 150px;
-  float: right;
-}
-
-.entete_div1{
-  background-color: rgb(2, 27, 88);
-  width: 100%;
-  height: 100px;
-  color: aliceblue;
   text-align: center;
-  padding: 5px;
+}
+
+.presentation{
+  height: 200px;
+  margin: 200px;
+}
+
+.content-image{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.quisuisje{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-quisuisje{
+  width: 60%;
+  height: 100%;
+  background-image: url("img/business-1676138__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 3px;
 }
 
-.entete_div2{
-  width: 100%;
-  color: rgb(2, 27, 88);
+.texte-quisuisje{
+  height: 100%;
   text-align: justify;
-  padding: 5px;
+}
+
+.image-quisuisje2{
+  width: 35%;
+  height: 100%;
+  background-image: url("img/artificial-intelligence.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vide{
+  width: 100%;
+  height: 400px;
 }

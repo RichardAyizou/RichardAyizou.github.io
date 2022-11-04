@@ -1,0 +1,114 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .entete{
+    background-image: url("img/milky-way-2750627__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #B0C4DE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    display: block;
+  }
+
+
+  .cover-logo{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+  }
+  
+
+  .navbar{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:ghostwhite;
+  }
+  
+  .nav-item > .active > a{
+    color: black;
+    background-color: white;
+  }
+
+  .navbar > .active > a{
+    color: red;
+  }
+
+  .logo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .presentation{
+    height: 200px;
+    margin: 200px;
+  }
+
+  .content-image{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .quisuisje{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-quisuisje{
+    width: 60%;
+    height: 100%;
+    background-image: url("img/business-1676138__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+  }
+
+  .texte-quisuisje{
+    height: 100%;
+    text-align: justify;
+  }
+
+  .image-quisuisje2{
+    width: 35%;
+    height: 100%;
+    background-image: url("img/artificial-intelligence.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .vide{
+    width: 100%;
+    height: 400px;
+  }
