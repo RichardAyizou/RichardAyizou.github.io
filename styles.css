@@ -49,9 +49,10 @@ li {
 li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 15px;
   text-decoration: none;
   color:ghostwhite;
+  border-radius: 2px;
 }
 
 /*.nav-list > li:active {
@@ -63,7 +64,12 @@ li a {
   color: red;
 }
 
-.nav-list > .active > a{
+.nav-item > a:active{
+  color: black;
+  background-color: white;
+}
+
+.nav-item > a:focus{
   color: black;
   background-color: white;
 }
